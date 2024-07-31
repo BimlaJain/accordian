@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .bg-black {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
 }
@@ -84,7 +84,13 @@
 .gap-10{
     gap: 10px;
 }
-
+.sec3-heading{
+    font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29.26px;
+        text-align: left;
+}
 .sec2-heading {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -104,6 +110,28 @@
 
 .box-shadow {
     box-shadow: none !important;
+}
+.plus-minus-btn:not(.collapsed) {
+    color: #171717 !important;
+}
+
+.plus-minus-btn::after {
+    background-image: url(https://cdn.icon-icons.com/icons2/834/PNG/512/plus_icon-icons.com_66718.png) !important;
+}
+
+.plus-minus-btn:not(.collapsed)::after {
+    background-image: url(https://cdn-icons-png.flaticon.com/128/15797/15797654.png) !important;
+}
+.plus-minus-btn1:not(.collapsed) {
+    color: white !important;
+}
+
+.plus-minus-btn1::after {
+    background-image: url(https://p1.hiclipart.com/preview/183/210/500/add-icon-plus-icon-cross-white-text-symmetry-symbol-light-logo-png-clipart.jpg) !important;
+}
+
+.plus-minus-btn1:not(.collapsed)::after {
+    background-image: url(https://cdn-icons-png.flaticon.com/128/15797/15797654.png) !important;
 }
 
 .head {
