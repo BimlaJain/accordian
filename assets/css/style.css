@@ -122,16 +122,11 @@
 .plus-minus-btn:not(.collapsed)::after {
     background-image: url(https://cdn-icons-png.flaticon.com/128/15797/15797654.png) !important;
 }
-.plus-minus-btn1:not(.collapsed) {
-    color: white !important;
+.a-btn::after {
+    background-image: url("/assets/images/svg/icon.svg") !important;
 }
-
-.plus-minus-btn1::after {
-    background-image: url(https://p1.hiclipart.com/preview/183/210/500/add-icon-plus-icon-cross-white-text-symmetry-symbol-light-logo-png-clipart.jpg) !important;
-}
-
-.plus-minus-btn1:not(.collapsed)::after {
-    background-image: url(https://cdn-icons-png.flaticon.com/128/15797/15797654.png) !important;
+.sec3-btn::after {
+    background-image: url("/assets/images/svg/sec3-icon.svg") !important;
 }
 
 .head {
